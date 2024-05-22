@@ -17,8 +17,6 @@ from urllib.error import URLError
 import pandas as pd
 import pydeck as pdk
 import streamlit as st
-from utils import show_code
-
 
 def mapping_demo():
     @st.cache_data
@@ -112,5 +110,3 @@ to display geospatial data."""
 )
 
 mapping_demo()
-
-show_code(mapping_demo)
