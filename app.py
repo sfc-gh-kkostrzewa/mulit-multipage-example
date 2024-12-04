@@ -16,7 +16,7 @@ import streamlit as st
 
 def run():
     st.set_page_config(
-        page_title="Hello 123",
+        page_title="Hello 1234",
         page_icon="👋",
     )
 
